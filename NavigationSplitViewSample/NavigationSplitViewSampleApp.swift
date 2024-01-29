@@ -13,7 +13,7 @@ struct NavigationSplitViewSampleApp: App {
     @Environment(\.scenePhase) private var scenePhase
     var state = AppState.shared
     
-    @State private var splitViewVisibility: NavigationSplitViewVisibility = .automatic
+    @State private var splitViewVisibility: NavigationSplitViewVisibility = .doubleColumn
     
     var body: some Scene {
         

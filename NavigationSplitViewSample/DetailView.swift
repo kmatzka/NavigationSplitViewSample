@@ -29,10 +29,10 @@ struct DetailView: View {
         .navigationTitle(housePartName)
         
         .onAppear {
-            print("*** onAppear")
+            print("*** onAppear - housePart: \(housePartName) | housePartID: \(String(describing: housePartID))")
         }
         .onDisappear {
-            print("*** onDisappear")
+            print("*** onDisapp - housePart: \(housePartName) | housePartID: \(String(describing: housePartID))")
         }
     }
 }
